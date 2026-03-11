@@ -18,7 +18,7 @@ function Masthead() {
     <div className="mast-logo"> 《🕶》 </div>
 
     <h1 className="mast-title">
-      yash<em>.log</em>
+      yash<em> .log</em>
     </h1>
 
     <p className="mast-subtitle">

@@ -15,7 +15,6 @@ function App() {
 
       <footer className="footer">
         <span>yash.log</span>
-        <span>◆</span>
         <span>built with ♥ . 2026</span>
       </footer>
     </>
