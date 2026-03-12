@@ -43,3 +43,12 @@ html, body, #root{
 main{
   flex:1;
 }
+
+.notfound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  color:var(--ink);
+}
