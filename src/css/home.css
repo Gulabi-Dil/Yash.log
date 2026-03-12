@@ -29,17 +29,17 @@
 
 .mast-strip-item{
   font-family:'DM Mono', monospace;
-  font-size:0.79rem;
-  color:white;
-  letter-spacing:2.5px;
+  font-size:0.65rem;   /* smaller overall */
+  color:var(--ink-mid);
+  letter-spacing:2px;
   text-transform:uppercase;
 }
 
 .mast-strip-item.mid{
   font-style:italic;
   font-family:'Cormorant Garamond', serif;
-  font-size:0.9rem;
-  color:white;
+  font-size:0.75rem;
+  color:var(--ink-mid);
 }
 
 /* mast title */
@@ -101,14 +101,16 @@
   padding:15px;
 }
 
-.about-label{
+.about-label,
+.posts-label{
   font-family:'DM Mono', monospace;
   font-size:0.73rem;
   letter-spacing:4px;
   text-transform:uppercase;
   color:gold;
+  padding-bottom:6px;      
   border-bottom:1px solid var(--rule-mid);
-  margin-bottom:16px;
+  margin-bottom:16px;  
 }
 
 .about-inner{
@@ -293,7 +295,19 @@
     .posts-grid{
         grid-template-columns:1fr;
     }
-
+    .mast-strip-item{
+        font-family:'DM Mono', monospace;
+        font-size:0.65rem;   /* smaller overall */
+        color:var(--ink-mid);
+        letter-spacing:2px;
+        text-transform:uppercase;
+    }
+    .mast-strip-item.mid{
+        font-style:italic;
+        font-family:'Cormorant Garamond', serif;
+        font-size:0.75rem;
+        color:var(--ink-mid);
+    }
 }
 
 
