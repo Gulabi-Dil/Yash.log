@@ -8,7 +8,7 @@ function Masthead() {
     <span className="mast-strip-item mid">
       BUILDING THINGS AND GOING DOWN THE RABBIT HOLE
     </span>
-    <span className="mast-strip-item">VOL. I</span>
+    <span className="mast-strip-item">VOL.I</span>
   </div>
 
   <div className="rule-thick"></div>
