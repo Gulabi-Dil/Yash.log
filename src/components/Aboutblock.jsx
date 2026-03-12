@@ -14,10 +14,10 @@ function Aboutblock() {
         </div>
         <div className="about-right">
             <a href="https://github.com/Gulabi-Dil" target="_blank" rel="noopener noreferrer" className="profile-github" title="Github">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             </a>
             <a href="mailto:thegreatmindhehe@gmail.com" className="profile-email" title="Send Email">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
             </a>
         </div>
       </div>

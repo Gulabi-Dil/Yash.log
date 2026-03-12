@@ -284,6 +284,7 @@
         transform:none;
         font-size:40px;
         margin-bottom:4px;
+        color: var(--ink);
     }
     .page{
         padding:25px 16px 30px;
@@ -295,7 +296,7 @@
     .posts-grid{
         grid-template-columns:1fr;
     }
-    /*.mast-strip-item{
+    .mast-strip-item{
         font-family:'DM Mono', monospace;
         font-size:0.65rem;   
         color:var(--ink-mid);
@@ -303,11 +304,10 @@
         text-transform:uppercase;
     }
     .mast-strip-item.mid{
-        font-style:italic;
         font-family:'Cormorant Garamond', serif;
-        font-size:0.75rem;
+        font-size:0.70rem;
         color:var(--ink-mid);
-    }*/
+    }
 }
 
 
